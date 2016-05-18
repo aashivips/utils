@@ -7,16 +7,16 @@ public class OneShotLatch
 
 	
 	
-	private final Sync sycn=new Sync();
+	private final Sync sync=new Sync();
 	
 	public void await() throws InterruptedException
 	{
-		sycn.acquireSharedInterruptibly(0);
+		sync.acquireSharedInterruptibly(0);
 	}
 	
 	public void signal() throws InterruptedException
 	{
-		sycn.releaseShared(1);
+		sync.releaseShared(1);
 	}
 	
 	
