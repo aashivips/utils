@@ -26,5 +26,11 @@ public class CompareObjects
 		System.out.println(" text");
 	}
 	
+	public  static void print1()
+	{
+		System.out.println(" wrong");
+	}
+
+	
 	
 }
