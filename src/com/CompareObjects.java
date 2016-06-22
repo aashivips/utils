@@ -21,4 +21,10 @@ public class CompareObjects
 	}
 	
 	
+	public  static void print()
+	{
+		System.out.println(" text");
+	}
+	
+	
 }
