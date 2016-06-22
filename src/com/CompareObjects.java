@@ -30,6 +30,11 @@ public class CompareObjects
 	{
 		System.out.println(" wrong");
 	}
+	
+	public  static void print2()
+	{
+		System.out.println(" wrong");
+	}
 
 	
 	
